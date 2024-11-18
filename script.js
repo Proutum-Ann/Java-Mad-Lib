@@ -9,6 +9,7 @@ let userNotMons = prompt("What's your least favorite monster?")
 
 let myStory = ` <p>Once upon a time, a young <a class="tooltipster" title="${occInfo}">${userOcc}</a> named ${userName} sets off to ${userQuest} with their pet ${userFavAnim}.</p>
 <p>On their journey to ${userQuest}, they encounter a(n) ${userNotMons}. Because it was a newbie at harassing humans, it was easily defeated. The pair continue on, but tragedy strikes when ${userName}'s pet ${userFavAnim} gets obliterated by some rando claiming to be a wizard. ${userName} manages to blow the rando up.. somehow, but will forever be changed by the loss of their beloved pet.</p> `
+let storySec = ` <p>Lost in thought, ${userName} decides to go home and rest fpr a bit. </p> `
 
 console.log(myStory)
 
