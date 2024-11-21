@@ -20,6 +20,8 @@ document.getElementById('story').innerHTML = myStory
 
 document.getElementById('cont').innerHTML = storySec
 
+let charGen = prompt('What is the gender of your character? (This is to determine the pronouns used in the story)')
+
 let pnounOne = ''
 let pnounTwo = ''
 let pnounThree = ''
@@ -38,30 +40,30 @@ if (charaAge === young){
     console.log(`, a <a class="tooltipster" title="${occInfo}">${charOcc}</a>`)
 }
 
-/* if (charGen === male){
-    pnounOne = he;
-    pnounTwo = him;
-    pnounThree = himself
+if (charGen === male){
+    pnounOne = 'he';
+    pnounTwo = 'him';
+    pnounThree = 'himself'
 } else if (charGen === female){
-    pnounOne = she;
-    pnounTwo = her;
-    pnounThree = herself
+    pnounOne = 'she';
+    pnounTwo = 'her';
+    pnounThree = 'herself'
 } else {
-    pnounOne = they;
-    pnounTwo = them;
-    pnounThree = themself
+    pnounOne = 'they';
+    pnounTwo = 'them';
+    pnounThree = 'themself'
 }
 
 if (charGen === male){
-    pnounOneOther = he is;
-    pnounTwoOther = he was;
-    pnounThreeOther = himself was;
+    pnounOneOther = 'he is';
+    pnounTwoOther = 'he was';
+    pnounThreeOther = 'himself was';
 } else if (charGen === female){
-    pnounOneOther = she is;
-    pnounTwoOther = she was;
-    pnounThreeOther = herself was;
+    pnounOneOther = 'she is';
+    pnounTwoOther = 'she was';
+    pnounThreeOther = 'herself was';
 } else {
-    pnounOneOther = they are;
-    pnounTwoOther = they were;
-    pnounThreeOther = themself were;
-} */
+    pnounOneOther = 'they are';
+    pnounTwoOther = 'they were';
+    pnounThreeOther = 'themself were';
+}
