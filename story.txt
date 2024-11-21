@@ -1,0 +1,11 @@
+1. character and pet intro
+2. intro to occupation
+2a. if no occupation, use an if... else
+3. intro to quest
+4. intro monster
+4a. beating up monster montage
+5. wizard guy (one of the prompts determines answer)
+5a. pet dies 
+6. mc sulking
+7. new pet (least fave animal)
+8. go on adventure (again)
