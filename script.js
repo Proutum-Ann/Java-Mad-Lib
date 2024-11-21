@@ -20,7 +20,15 @@ document.getElementById('story').innerHTML = myStory
 
 document.getElementById('cont').innerHTML = storySec
 
-//You are a ${charaAge} ${charRace} named ${charName}${introRem}
+let pnounOne = ''
+let pnounTwo = ''
+let pnounThree = ''
+
+let pnounOneOther = ''
+let pnounTwoOther = ''
+let pnounThreeOther = ''
+
+//You are a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}. 
 
 if (charaAge === young){
     console.log('')
@@ -29,3 +37,31 @@ if (charaAge === young){
 } else {
     console.log(`, a <a class="tooltipster" title="${occInfo}">${charOcc}</a>`)
 }
+
+/* if (charGen === male){
+    pnounOne = he;
+    pnounTwo = him;
+    pnounThree = himself
+} else if (charGen === female){
+    pnounOne = she;
+    pnounTwo = her;
+    pnounThree = herself
+} else {
+    pnounOne = they;
+    pnounTwo = them;
+    pnounThree = themself
+}
+
+if (charGen === male){
+    pnounOneOther = he is;
+    pnounTwoOther = he was;
+    pnounThreeOther = himself was;
+} else if (charGen === female){
+    pnounOneOther = she is;
+    pnounTwoOther = she was;
+    pnounThreeOther = herself was;
+} else {
+    pnounOneOther = they are;
+    pnounTwoOther = they were;
+    pnounThreeOther = themself were;
+} */
