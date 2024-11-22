@@ -9,17 +9,9 @@ let userNotFav = prompt('What\'s your least favorite animal?')
 let userNotMons = prompt("What's your least favorite monster?")
 let charaAge = prompt('How old is your character? (Use "young", "young adult", "old", etc.)')
 let charGen = prompt('What is the gender of your character? (This is to determine the pronouns used in the story)')
+alert('Thank you for your inputs, now enjoy your story!')
 
-let pnounOne = ''
-let pnounTwo = ''
-let pnounThree = ''
-let pnounFour = ''
-let pnounFive = ''
-
-let pnounOneOther = ''
-let pnounTwoOther = ''
-let pnounThreeOther = ''
-
+//Occupation
 let introRem = ''
 
 if (charaAge === 'young'){
@@ -29,6 +21,17 @@ if (charaAge === 'young'){
 } else {
     introRem = `, a <a class="tooltipster" title="${occInfo}">${charOcc}</a>`
 }
+
+// For character pronouns
+let pnounOne = ''
+let pnounTwo = ''
+let pnounThree = ''
+let pnounFour = ''
+let pnounFive = ''
+
+let pnounOneOther = ''
+let pnounTwoOther = ''
+let pnounThreeOther = ''
 
 if (charGen === 'male'){
     pnounOne = 'he';
@@ -63,6 +66,8 @@ if (charGen === 'male'){
     pnounTwoOther = 'they were';
     pnounThreeOther = 'themself were';
 }
+
+//Actual story
 
 let myStory = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounThree} quest is to ${charQuest}. ${charName} and ${pnounThree} ${favAnim} packed up and got ready for an adventure, of course, not before telling ${pnounThree} family goodbye.</p> `
 
