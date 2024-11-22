@@ -22,7 +22,7 @@ let pnounThreeOther = ''
 
 let introRem = ''
 
-let myStory = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounOne} goal is to ${charQuest}</p> `
+let myStory = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounOne} quest is to ${charQuest}. ${charName} and ${pnounThree} ${favAnim} packed up and got ready for an adventure, of course, not before telling ${pnounThree} family goodbye.</p> `
 
 
 if (charaAge === 'young'){
