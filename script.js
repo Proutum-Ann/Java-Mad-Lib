@@ -14,6 +14,7 @@ let pnounOne = ''
 let pnounTwo = ''
 let pnounThree = ''
 let pnounFour = ''
+let pnounFive = ''
 
 let pnounOneOther = ''
 let pnounTwoOther = ''
@@ -36,17 +37,20 @@ if (charGen === 'male'){
     pnounOne = 'he';
     pnounTwo = 'him';
     pnounThree = 'his';
-    pnounFour = 'himself'
+    pnounFour = 'he\'s';
+    pnounFive = 'himself'
 } else if (charGen === 'female'){
     pnounOne = 'she';
     pnounTwo = 'her';
     pnounThree = 'her';
-    pnounFour = 'herself'
+    pnounFour = 'she\'s';
+    pnounFive = 'herself'
 } else {
     pnounOne = 'they';
     pnounTwo = 'them';
     pnounThree = 'their';
-    pnounFour = 'themself'
+    pnounFour = 'they\'re';
+    pnounFive = 'themself'
 }
 
 if (charGen === 'male'){
