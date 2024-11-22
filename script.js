@@ -22,9 +22,6 @@ let pnounThreeOther = ''
 
 let introRem = ''
 
-let myStory = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounOne} quest is to ${charQuest}. ${charName} and ${pnounThree} ${favAnim} packed up and got ready for an adventure, of course, not before telling ${pnounThree} family goodbye.</p> `
-
-
 if (charaAge === 'young'){
     introRem = ''
 } else if (charaAge === 'young adult'){
@@ -66,6 +63,8 @@ if (charGen === 'male'){
     pnounTwoOther = 'they were';
     pnounThreeOther = 'themself were';
 }
+
+let myStory = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounThree} quest is to ${charQuest}. ${charName} and ${pnounThree} ${favAnim} packed up and got ready for an adventure, of course, not before telling ${pnounThree} family goodbye.</p> `
 
 
 console.log(story)
