@@ -2,3 +2,25 @@ a.tooltipster {
     color: black;
     text-decoration: underline;
 }
+
+body {
+    background: url('imgs/book-bg.jpg');
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+}
+
+div {
+    background-color: white;
+    padding: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#startimage {
+    background-image: url('imgs/getstarted.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

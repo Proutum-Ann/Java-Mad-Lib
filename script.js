@@ -1,6 +1,6 @@
 alert('Hello, welcome to Build-A-Story!')
 let charName = prompt("Let's not dilly-dally any longer, what's the name of your character?")
-let charQuest = prompt(`I see.. your character's name is ${charName}. Now, what are you here for? Your quest, mayhaps?`)
+let charQuest = prompt(`I see.. your character's name is ${charName}. Now, what are they here for? their quest, mayhaps?`)
 let charOcc = prompt("Is that so? Then, what is their occupation?")
 let occInfo = prompt('What does the occupation actually mean?')
 let charRace = prompt('What is your character\'s species?')
@@ -69,9 +69,14 @@ if (charGen === 'male'){
 
 //Actual story
 
-let myStory = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounThree} quest is to ${charQuest}. ${charName} and ${pnounThree} ${favAnim} packed up and got ready for an adventure, of course, not before telling ${pnounThree} family goodbye.</p> `
+let start = ` <p>Your character is a ${charaAge} ${charRace} named ${charName}${introRem}, who owns a pet ${favAnim}; and ${pnounThree} quest is to ${charQuest}. ${charName} and ${pnounThree} ${favAnim} packed up and got ready for an adventure, of course, not before telling ${pnounThree} family goodbye.</p> `
 
+let adv = ` <p>${charName} now finally sets off with ${pnounThree} ${favAnim} on their grand adventure </p> `
 
-console.log(story)
+console.log(start)
 
-document.getElementById('story').innerHTML = myStory
+document.getElementById('start').innerHTML = start
+
+console.log(adventure)
+
+document.getElementById('adventure').innerHTML = adv
